@@ -1,0 +1,24 @@
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icon-card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.icon-card i {
+    color: var(--first-color);
+}
+.icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    max-height: 300px;
+}
+
+.slide_img{
+    width: 100%;
+    height: 200px;
+}
