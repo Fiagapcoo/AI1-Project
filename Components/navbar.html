@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="CSS/index.css">
+<link rel="stylesheet" href="../CSS/index.css">
 
 <nav>
     <div class="nav">
@@ -21,7 +21,7 @@
           <a href="#">Galeria Interativa</a>
           
           <div class="dropdown ">
-            <a href="#">Menu3</a>
+            <a href="#" class="dropdown-toggle">Menu3</a>
             <div class="dropdown-content">
               <a href="#">Menu3.1</a>
               <a href="#">Menu3.2</a>
@@ -43,7 +43,7 @@
       </div>
 </nav>
 
-<script src="JS/navbar.js"></script>
+<script src="../JS/navbar.js"></script>
 
 <style>
 
@@ -56,7 +56,7 @@
     display: none;
     position: absolute;
     background-color: var(--second-color);
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -132,16 +132,23 @@ body {
   background-color: var(--header-color);
 }
 
+.nav > .nav-links > .dropdown >a:hover {
+  background-color: var(--header-color);
+}
+
 .nav > #nav-check {
   display: none;
 }
 
-@media (max-width:690px) {
+@media (max-width:830px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
     top: 0px;
+  }
+  .dropdown-content{
+    box-shadow: none;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -168,6 +175,10 @@ body {
     left: 0px;
   }
   .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > .nav-links > .dropdown >a {
     display: block;
     width: 100%;
   }
