@@ -11,36 +11,51 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
+
         <nav>
-            <div class="logo">
-                <a href="../index.html">Your Logo</a>
-            </div>
-            <div class="menu-container">
-                <a href="articles_news.html">Artigos e Noticias</a>
-                <a href="gallery.html">Galeria Interativa</a>
-
-                <div class="dropdown">
-                    <a href="#">Menu3</a>
-                    <div class="dropdown-content">
-                        <a href="#">Menu3.1</a>
-                        <a href="#">Menu3.2</a>
-                        <a href="#">Menu3.3</a>
-                    </div>
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                  <div class="nav-title">
+                    Your Logo
+                  </div>
                 </div>
-
-                <div class="dropdown">
-                    <a href="#">Menu4</a>
-                    <div class="dropdown-content">
-                        <a href="#">Menu4.1</a>
-                        <a href="#">Menu4.2</a>
-                        <a href="#">Menu4.3</a>
-                    </div>
+                <div class="nav-btn">
+                  <label for="nav-check">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </label>
                 </div>
-
-                <a href="form.html">Formulario</a>
-            </div>
+                
+                <div class="nav-links">
+                  <a href="articles_news.html">Artigos e Noticias</a>
+                  <a href="gallery.html">Galeria Interativa</a>
+                  
+                  <div class="dropdown ">
+                    <a href="#" class="dropdown-toggle">Menu3</a>
+                    <div class="dropdown-content">
+                      <a href="#">Menu3.1</a>
+                      <a href="#">Menu3.2</a>
+                      <a href="#">Menu3.3</a>
+                    </div>
+                  </div>
+        
+                  <div class="dropdown ">
+                    <a href="#" class="dropdown-toggle">Menu4</a>
+                    <div class="dropdown-content">
+                      <a href="#">Menu4.1</a>
+                      <a href="#">Menu4.2</a>
+                      <a href="#">Menu4.3</a>
+                    </div>
+                  </div>
+        
+                  <a href="form.html">Contacte-nos</a>
+                </div>
+              </div>
         </nav>
+
     </header>
 
     <main>
@@ -51,6 +66,7 @@
 
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="../JS/navbar.js"></script>
 </body>
 
 </html>
