@@ -47,7 +47,7 @@ function handleArticles() {
 
     // Update the HTML content with information from the retrieved article
     document.getElementById('title').innerHTML = article.Titulo;
-    document.getElementById('img').innerHTML = `<img src="../assets/imgs/${article.IMG}" alt="ArtigoIMG" />`;
+    document.getElementById('image').innerHTML = `<img src="../assets/imgs/${article.IMG}" alt="ArtigoIMG" id = "img" class = "img"/>`;
     document.getElementById('h1Title').innerHTML = article.Titulo;
-    document.getElementById('pContent').innerHTML = article.Conteudo;
+    document.getElementById('pContent').innerHTML = article.ConteudoCompleto;
 }
