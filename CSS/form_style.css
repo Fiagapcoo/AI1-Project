@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Common styles for input fields and textarea */
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box ;
+}
+
+.textarea {
+  height: 200px;
+  resize: none;
+}
+
+/* Button style */
+.button {
+  background-color: var(--first-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
