@@ -1,69 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="../CSS/index.css">
-    <link rel="stylesheet" href="../CSS/gallery_style.css">
-    <link rel="stylesheet" href="../CSS/navbar_style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Estatísticas</title>
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="../CSS/gallery_style.css">
+  <link rel="stylesheet" href="../CSS/navbar_style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Estatísticas</title>
 </head>
+
 <body>
 
-    <header>
+  <header>
 
-        <nav>
-            <div class="nav">
-                <input type="checkbox" id="nav-check">
-                <div class="nav-header">
-                  <div class="nav-title">
-                    Your Logo
-                  </div>
-                </div>
-                <div class="nav-btn">
-                  <label for="nav-check">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                  </label>
-                </div>
-                
-                <div class="nav-links">
-                  <a href="articles_news.html">Artigos e Noticias</a>
-                  <a href="gallery.html">Galeria Interativa</a>
-                  
-                  <div class="dropdown ">
-                    <a href="#" class="dropdown-toggle">Menu3</a>
-                    <div class="dropdown-content">
-                      <a href="#">Menu3.1</a>
-                      <a href="#">Menu3.2</a>
-                      <a href="#">Menu3.3</a>
-                    </div>
-                  </div>
-        
-                  <div class="dropdown ">
-                    <a href="#" class="dropdown-toggle">Menu4</a>
-                    <div class="dropdown-content">
-                      <a href="#">Menu4.1</a>
-                      <a href="#">Menu4.2</a>
-                      <a href="#">Menu4.3</a>
-                    </div>
-                  </div>
-        
-                  <a href="form.html">Contacte-nos</a>
-                </div>
-              </div>
-        </nav>
-
-    </header>
-
-   <main>
-        <h1>Galeria</h1>
-    
-        
-    
+    <nav>
+      <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Your Logo
+          </div>
         </div>
-   </main>
-   <script src="../JS/navbar.js"></script>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <a href="articles_news.html">Artigos e Noticias</a>
+          <a href="gallery.html">Galeria Interativa</a>
+
+          <div class="dropdown ">
+            <a href="#" class="dropdown-toggle">Menu3</a>
+            <div class="dropdown-content">
+              <a href="#">Menu3.1</a>
+              <a href="#">Menu3.2</a>
+              <a href="#">Menu3.3</a>
+            </div>
+          </div>
+
+          <div class="dropdown ">
+            <a href="#" class="dropdown-toggle">Menu4</a>
+            <div class="dropdown-content">
+              <a href="#">Menu4.1</a>
+              <a href="#">Menu4.2</a>
+              <a href="#">Menu4.3</a>
+            </div>
+          </div>
+
+          <a href="form.html">Contacte-nos</a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <h1>Galeria</h1>
+
+    <div class="imageWrapper" id="wrapper">
+      <img src="../assets/imgs/gallery/1.jpg" id="fullImg" />
+      <span id="span">X</span>
+    </div>
+
+    <div class="img-gallery">
+      <img src="../assets/imgs/gallery/1.jpg" />
+      <img src="../assets/imgs/gallery/2.jpg" />
+      <img src="../assets/imgs/gallery/3.jpg" />
+      <img src="../assets/imgs/gallery/4.jpg" />
+      <img src="../assets/imgs/gallery/5.jpg" />
+      <img src="../assets/imgs/gallery/6.jpg" />
+      <img src="../assets/imgs/gallery/7.jpg" />
+      <img src="../assets/imgs/gallery/8.jpg" />
+     
+
+    </div>
+
+    
+</main>
+
+
+
+  <script src="../JS/navbar.js"></script>
+  <script src="../JS/gallery_script.js"></script>
 </body>
+
 </html>
