@@ -36,6 +36,7 @@
     align-items: center;
 }
 
+
 .cards{
     background-image: url("/assets/imgs/home_page_img/Produtos2.jpg");
     background-attachment: fixed;
@@ -69,6 +70,13 @@
     color: white;
     transition: background-color 0.3s;
 }
+
+@media screen and (max-width: 500px) {
+    .know_more_btn {
+        width: 73%;
+    }
+}
+
 
 .know_more_btn:hover{
     cursor: pointer;

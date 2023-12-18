@@ -157,7 +157,7 @@ if (!phoneRegex.test(this.state.Phone)) {
           React.createElement('label', null, 'Telefone:'),
           React.createElement('input', {
             type: 'text',
-            placeholder: '+351 123 456 789',
+            placeholder: '+351 123456789',
             className: 'input',
             name: 'Phone',
             value: this.state.Phone,

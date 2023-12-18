@@ -131,3 +131,7 @@ body {
 .action-bottom-bar a:hover .chevron {
     display: none;
 }
+
+.card_container{
+    margin-top: 100px;
+}
