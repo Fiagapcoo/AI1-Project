@@ -3,6 +3,11 @@
   display: inline-block;
 }
 
+.nav-link{
+  text-decoration: none;
+  color: var(--title-color);
+}
+
 .dropdown-content {
   display: none;
   position: absolute;

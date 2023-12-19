@@ -1,6 +1,3 @@
-
-
-
 .clock {
         background-color: var(--title-color);
         padding: 20px;
@@ -14,12 +11,12 @@
         z-index: -1;
     }
     
-    /* Add a media query to adjust the position for mobile view */
+
     @media only screen and (max-width: 600px) {
         .clock {
-            position: relative; /* Change to relative for mobile view */
-            right: auto; /* Reset the right property for mobile view */
-            margin-top: 10px; /* Adjust the margin as needed */
+            position: relative;
+            right: auto;
+            margin-top: 10px;
         }
     }
     

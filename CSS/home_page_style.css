@@ -1,3 +1,21 @@
+
+.slideshow {
+    /* Add your slideshow container styles here */
+    position: relative;
+    z-index: -2;
+}
+
+@media (min-width: 500px) {
+    .clock {
+        position: relative !important;
+        width: 25%;
+        float: right;
+    }
+}
+
+
+
+
 .icon-container {
     display: flex;
     justify-content: space-around;
