@@ -4,6 +4,32 @@
     box-sizing: border-box;
   }
 
+  .img-gallery {
+    text-align: center;
+  }
+  
+  .img-gallery img {
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Adjust the transition duration as needed */
+  }
+  
+  .img-gallery img:nth-child(1) { animation-delay: 0s; }
+  .img-gallery img:nth-child(2) { animation-delay: 0.2s; }
+  .img-gallery img:nth-child(3) { animation-delay: 0.4s; }
+  .img-gallery img:nth-child(4) { animation-delay: 0.6s; }
+  .img-gallery img:nth-child(5) { animation-delay: 0.8s; }
+  .img-gallery img:nth-child(6) { animation-delay: 1s; }
+  .img-gallery img:nth-child(7) { animation-delay: 1.2s; }
+  .img-gallery img:nth-child(8) { animation-delay: 1.4s; }
+  
+  /* Fade-in animation */
+  .img-gallery img.fade-in {
+    opacity: 1;
+  }
+
+  
   h1{
     text-align: center;
   }

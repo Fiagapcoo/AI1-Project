@@ -182,3 +182,9 @@ if (!phoneRegex.test(this.state.Phone)) {
 
 // Render the component to the DOM into the div with the ID react-content
 ReactDOM.render(React.createElement(Component), document.getElementById('react-content'));
+
+
+window.addEventListener("beforeunload", (event) => {
+  event.preventDefault();
+  event.returnValue = '';
+});

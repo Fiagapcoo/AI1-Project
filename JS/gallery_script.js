@@ -55,7 +55,7 @@ function zoomImage() {
   // Toggle between zoomed-in and zoomed-out states
   if (wrapper.style.cursor === "zoom-in") {
     // Zoom in
-    imgWrapper.style.transform = "scale(1.5)"; // Adjust the scale factor as needed
+    imgWrapper.style.transform = "scale(1.5)"; 
     wrapper.style.cursor = "zoom-out";
   } else {
     // Zoom out
@@ -63,3 +63,19 @@ function zoomImage() {
     wrapper.style.cursor = "zoom-in";
   }
 }
+
+/*****************************************************************************************
+ * @brief  Event listener for the DOMContentLoaded event.                                *
+ * @detail This function adds a fade-in animation class to each image in the             *
+ *         ".img-gallery" container with a staggered delay, creating a sequential         *
+ *         appearance effect.              *
+ * *************************************************************************************/
+document.addEventListener("DOMContentLoaded", function () {
+  var images = document.querySelectorAll(".img-gallery img");
+
+  images.forEach(function (image, index) {
+    setTimeout(function () {
+      image.classList.add("fade-in");
+    }, index * 200);
+  });
+});
