@@ -184,6 +184,15 @@ if (!phoneRegex.test(this.state.Phone)) {
 ReactDOM.render(React.createElement(Component), document.getElementById('react-content'));
 
 
+/**********************************************************************************
+ * @brief  Registers a "beforeunload" event listener to handle page unload.       *
+ *                                                                                *
+ * @details This code adds an event listener to the window object for the          *
+ *          "beforeunload" event, which is triggered before the page is unloaded. *
+ *          The listener prevents the default browser behavior and sets the        *
+ *          event's returnValue to an empty string, prompting a confirmation       *
+ *          dialog to prevent accidental page navigation or loss of unsaved data.  *
+ **********************************************************************************/
 window.addEventListener("beforeunload", (event) => {
   event.preventDefault();
   event.returnValue = '';
