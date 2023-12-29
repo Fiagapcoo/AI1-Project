@@ -19,7 +19,7 @@
 /* Button style */
 .button {
   background-color: var(--first-color);
-  color: white;
+  color: var(--white-color);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;

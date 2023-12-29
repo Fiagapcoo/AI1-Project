@@ -1,9 +1,9 @@
 .clock {
-        background-color: var(--title-color);
+        background-color: var(--clock-background-color);
         padding: 20px;
         border-radius: 10px;
         text-align: center;
-        border: 5px solid #7c7878;
+        border: 5px solid var(--clock-border-color);
         font-size: 18px;
         width: auto;
         position: absolute;

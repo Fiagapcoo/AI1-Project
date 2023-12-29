@@ -50,7 +50,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    color: white;
+    color: var(--white-color);
     align-items: center;
 }
 
@@ -85,7 +85,7 @@
     background-color: var(--first-color);
     border: none;
     border-radius: 10px;
-    color: white;
+    color:var(--white-color);
     transition: background-color 0.3s;
 }
 
