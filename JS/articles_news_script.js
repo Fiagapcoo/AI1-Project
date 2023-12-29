@@ -28,7 +28,7 @@ fetch('../assets/JSON/articles.json')
 function handleArticles() {
 
   // Map over each article and generate HTML content
-  const articlesHTML = Articles.map((article, index) => `
+  const articlesHTML = Articles.map((article) => `
       <article class="card">
           <div class='card-background'>
               <img src="../assets/imgs/${article.IMG}" alt="Card_background" />
@@ -38,7 +38,7 @@ function handleArticles() {
               <p>${article.Conteudo}</p>
           </div>
           <div class="action-bottom-bar">
-              <a href="info_article_news.html?id=${index}">
+              <a href="info_article_news.html?id=${article.id}">
                   Saiba Mais
                   <svg xmlns="http://www.w3.org/2000/svg" class="chevron" width="24" height="24"
                       viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
