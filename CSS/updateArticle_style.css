@@ -1,0 +1,57 @@
+body {
+    background-color: #f4f4f4;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  input[type="file"] {
+    margin-top: 8px;
+  }
+
+  input[type="submit"] {
+    background-color: var(--first-color);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: var(--second-color);
+  }
+
+  textarea {
+    width: 100%;
+    max-width: 500px; 
+    height: 200px;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+
+  @media (max-width: 600px) {
+    textarea {
+      height: 150px;
+    }
+  }
+  
