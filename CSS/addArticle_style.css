@@ -37,3 +37,8 @@ body {
   input[type="submit"]:hover {
     background-color: var(--second-color);
   }
+
+  footer{
+    margin-top: 155px;
+
+}

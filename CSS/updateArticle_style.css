@@ -2,6 +2,10 @@ body {
     background-color: var(--body-color);
   }
 
+  footer{
+    margin-top: 155px;
+  }
+
   form {
     max-width: 400px;
     margin: 0 auto;
