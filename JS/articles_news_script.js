@@ -1,22 +1,41 @@
 // Fetch data from the articles.json file and handle it
-var Articles = [];
-fetch('../assets/JSON/articles.json')
-  .then(response => {
-    // Check if the fetch operation was successful
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.json();
-  })
-  .then(artigos => {
-    // Assign the fetched articles to the Articles array and call the handleArticles function
-    Articles = artigos;
+let Articles = [];
+
+// Function to fetch articles from the articles.json file
+function fetchArticles() {
+  return new Promise((resolve, reject) => {
+    fetch('../assets/JSON/articles.json')
+      .then(response => {
+        // Check if the fetch operation was successful
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(articles => {
+        // Resolve the promise with the fetched articles
+        resolve(articles);
+      })
+      .catch(error => {
+        // Reject the promise with the error message
+        reject(error);
+      });
+  });
+}
+
+// Example of using the promise-based approach
+fetchArticles()
+  .then(articles => {
+    // Assign the fetched articles to the Articles array
+    Articles = articles;
+    // Call the handleArticles function or perform any other operations
     handleArticles();
   })
   .catch(error => {
     // Log an error message if there was an issue fetching the file
     console.error('Error fetching the file:', error.message);
   });
+
 
 /**********************************************************************************
  * @brief  Function to handle the display of articles on the web page.            *
