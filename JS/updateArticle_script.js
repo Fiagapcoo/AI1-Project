@@ -114,6 +114,6 @@ function handleArticle(id) {
       + `<label for="img">Diretorio da Imagem</label>`
       + `<input type="text" id="img" name="img" value="${article.IMG}">`
       + `<label for="content">Conteudo</label>`
-      + `<textarea id="content" name="content" rows="10" cols="40">${article.Conteudo}</textarea>`
+      + `<textarea id="content" name="content" rows="10" cols="40">${article.ConteudoCompleto}</textarea>`
       + `<input type="submit" value="Alterar">`;
 }

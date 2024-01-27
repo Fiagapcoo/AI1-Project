@@ -43,3 +43,11 @@ body {
   footer{
     margin-top: 98px;
   }
+
+  select{
+    width: 80%;
+  }
+
+  .site-footer{
+    height: 689px;
+  }

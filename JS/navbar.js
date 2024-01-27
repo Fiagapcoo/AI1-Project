@@ -20,15 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
    * @param {Event} e - The event object representing the click event.              *
    **********************************************************************************/
   navLinks.addEventListener('click', function (e) {
-    if (e.target.classList.contains('dropdown-toggle')) {
-      var dropdownContent = e.target.nextElementSibling;
-      
-      // Toggle the display of the dropdown content
-      if (dropdownContent.style.display === 'block') {
-        dropdownContent.style.display = 'none';
-
-      } else {
-        dropdownContent.style.display = 'block';
+    // Check if screen width is less than or equal to 768 pixels (considered as mobile resolution)
+    if (window.innerWidth <= 768) {
+      if (e.target.classList.contains('dropdown-toggle')) {
+        var dropdownContent = e.target.nextElementSibling;
+        
+        // Toggle the display of the dropdown content
+        if (dropdownContent.style.display === 'block') {
+          dropdownContent.style.display = 'none';
+        } else {
+          dropdownContent.style.display = 'block';
+        }
       }
     }
   });
