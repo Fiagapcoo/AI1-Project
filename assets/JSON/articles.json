@@ -1,30 +1,72 @@
 [
     {
         "id": "0",
-        "IMG": "articles/1.jpeg",
-        "Titulo": "Titulo 0",
-        "Conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis. Euismod in pellentesque",
-        "ConteudoCompleto" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "IMG": "articles/0.jpg",
+        "Titulo": "A Importância da Agricultura Sustentável",
+        "Conteudo": "Este artigo explora a importância das práticas de agricultura sustentável na preservação dos ecossistemas...",
+        "ConteudoCompleto" : "Este artigo explora a importância das práticas de agricultura sustentável na preservação dos ecossistemas, garantindo a segurança alimentar e mitigando as mudanças climáticas. Discute métodos como rotação de culturas, agricultura orgânica e conservação de água."
     },
     {
         "id": "1",
-        "IMG": "articles/2.jpg",
-        "Titulo": "Titulo 1",
-        "Conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-        "ConteudoCompleto" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Vivamus arcu felis bibendum ut tristique et egestas. In fermentum et sollicitudin ac orci phasellus. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Nunc mi ipsum faucibus vitae aliquet nec. Vestibulum rhoncus est pellentesque elit ullamcorper. Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum lectus mauris ultrices eros."
+        "IMG": "articles/1.png",
+        "Titulo": "Energias Renováveis: Um Caminho para um Futuro Sustentável",
+        "Conteudo": "Esta notícia destaca o rápido crescimento de fontes de energia renovável como...",
+        "ConteudoCompleto" : "Esta notícia destaca o rápido crescimento de fontes de energia renovável como solar e eólica e seu papel na redução das emissões de carbono. Discute tendências globais, avanços tecnológicos e o potencial para uma transição para um futuro energético sustentável."
     },
     {
         "id": "2",
-        "IMG": "",
-        "Titulo": "Titulo 2",
-        "Conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing elit ut.",
-        "ConteudoCompleto" : ""
+        "IMG": "articles/2.jpeg",
+        "Titulo": "Economia Circular: Redefinindo Resíduos como Recursos",
+        "Conteudo": "O conceito de economia circular é explorado neste artigo, que enfatiza a...",
+        "ConteudoCompleto" : "O conceito de economia circular é explorado neste artigo, que enfatiza a necessidade de afastar-se do modelo linear 'extrair-produzir-descartar' para um onde os recursos são reutilizados, reciclados ou reutilizados. Discute estudos de caso e iniciativas que impulsionam a transição para uma economia circular."
     },
     {
         "id": "3",
-        "IMG": "",
-        "Titulo": "Titulo 3",
-        "Conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing elit ut.",
-        "ConteudoCompleto" : ""
+        "IMG": "articles/3.jpg",
+        "Titulo": "A Ascensão da Moda Sustentável",
+        "Conteudo": "Este artigo discute os impactos ambientais e sociais da indústria da moda e a crescente demanda",
+        "ConteudoCompleto" : "Este artigo discute os impactos ambientais e sociais da indústria da moda e a crescente demanda por opções de vestuário sustentáveis e éticas. Destaca inovações em materiais, métodos de produção e campanhas de conscientização do consumidor."
+    },
+    {
+        "id": "4",
+        "IMG": "articles/4.jpg",
+        "Titulo": "Cidades Verdes: Construindo Ambientes Urbanos Sustentáveis",
+        "Conteudo": "O artigo foca nos esforços para criar cidades ecologicamente corretas e habitáveis através do planeamento...",
+        "ConteudoCompleto" : "O artigo foca nos esforços para criar cidades ecologicamente corretas e habitáveis através do planeamento urbano sustentável, infraestrutura verde e alternativas de transporte. Discute exemplos de cidades que implementam práticas sustentáveis e os benefícios para os residentes e o meio ambiente"
+    },
+    {
+        "id": "5",
+        "IMG": "articles/5.jpg",
+        "Titulo": "Conservação dos Oceanos",
+        "Conteudo": "Este artigo lança luz sobre a importância dos esforços de conservação dos oceanos para preservar a...",
+        "ConteudoCompleto" : "Este artigo lança luz sobre a importância dos esforços de conservação dos oceanos para preservar a biodiversidade marinha, combater a pesca excessiva e mitigar os impactos das mudanças climáticas. Discute áreas marinhas protegidas, práticas de pesca sustentável e o papel da tecnologia na monitorização e investigação oceânicas."
+    },
+    {
+        "id": "6",
+        "IMG": "articles/6.jpeg",
+        "Titulo": "O Caso de Negócio para a Sustentabilidade",
+        "Conteudo": "O artigo explora como a integração da sustentabilidade nas práticas comerciais pode levar à...",
+        "ConteudoCompleto" : "O artigo explora como a integração da sustentabilidade nas práticas comerciais pode levar à rentabilidade e resiliência a longo prazo. Discute exemplos de empresas que adotam estratégias sustentáveis, reduzem custos, atraem clientes e melhoram a reputação da marca."
+    },
+    {
+        "id": "7",
+        "IMG": "articles/7.jpeg",
+        "Titulo": "Ação Climática",
+        "Conteudo": "Esta notícia aborda a urgência da ação climática para limitar o aquecimento global e seus impactos...",
+        "ConteudoCompleto" : "Esta notícia aborda a urgência da ação climática para limitar o aquecimento global e seus impactos catastróficos. Discute acordos internacionais, iniciativas políticas e movimentos de base destinados a reduzir as emissões de gases de efeito estufa e a fazer a transição para uma economia de baixo carbono."
+    },
+    {
+        "id": "8",
+        "IMG": "articles/8.jpg",
+        "Titulo": "Redução do Desperdício Alimentar",
+        "Conteudo": "O artigo examina o problema do desperdício alimentar e suas consequências ambientais...",
+        "ConteudoCompleto" : "O artigo examina o problema do desperdício alimentar e suas consequências ambientais, sociais e econômicas. Discute iniciativas para reduzir o desperdício alimentar ao longo da cadeia de abastecimento, incluindo armazenamento, distribuição e educação do consumidor."
+    },
+    {
+        "id": "9",
+        "IMG": "articles/9.jpg",
+        "Titulo": "Conservação da Biodiversidade",
+        "Conteudo": "Este artigo destaca a importância da conservação da biodiversidade na preservação dos ecossistemas, no...",
+        "ConteudoCompleto" : "Este artigo destaca a importância da conservação da biodiversidade na preservação dos ecossistemas, no apoio ao bem-estar humano e na adaptação às mudanças climáticas. Discute ameaças à biodiversidade, como destruição de habitat e extinção de espécies, e a necessidade de esforços de conservação a nível local e global."
     }
 ]

@@ -7,9 +7,19 @@
 }
 
 .img{
-    width: 100%;
+    width: 50%;
+    border: 2px solid var(--first-color);
+    margin-left: 10%;
+
+}
+
+.image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 5%;
-    max-height: 300px;
+
 
 }
 
